@@ -1,0 +1,35 @@
+`<img src="${result.data[i].uploads}" id="contentAreaHomePageTweetPhoto" alt="post-image" class="img-responsive post-image" />
+<div class="post-container">
+  <img src="${result.data[i].uploads}" id="" alt="user" class="profile-photo-md pull-left" />
+  <div class="post-detail">
+    <div class="user-info">
+      <h5><a href="/timeline" id="" class="profile-link">${result.data[i].username}</a> <!--<span class="following">following</span>--></h5>
+      <p class="text-muted"id="contentAreaHomePageTime">${result.data[i].createdAt}</p>
+    </div>
+    <div class="reaction">
+      <button class="btn text-green" id="contentAreaHomePageLikeButton" value="${result.data[i]._id}"><i class="icon ion-thumbsup"></i>${result.data[i].likeCount}</button>
+      <button class="btn text-blue" id="contentAreaHomePageUpdateButton" value="${result.data[i]._id}"><i class="fa fa-pencil-square-o"></i></button>
+      <button class="btn text-red" id="contentAreaHomePageDeleteButton"  value="${result.data[i]._id}"><i class="icon ion-android-delete"></i></button>
+    </div>
+    <div class="line-divider"></div>
+    <div class="post-text">
+      <p><i class="em em-anguished"></i> <i class="em em-anguished"></i> <i class="em em-anguished"></i></p>
+    </div>
+    <!--<div class="line-divider"></div>-->
+    <div class="">
+      <!--<img src="images/users/user-11.jpg" alt="" class="profile-photo-sm" />-->
+      <p id="contentAreaHomePagePostText"+${result.data[i]._id}><b><!--<a href="/timeline" class="profile-link"></a><i class="em em-laughing"></i>-->${result.data[i].post}</b></p>
+    
+    </div>
+    <!--<div class="post-comment">
+      <img src="" alt="" class="profile-photo-sm" />
+      <p><a href="/timeline" class="profile-link">John</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </h5>
+    </div>
+    <div class="post-comment">
+      <img src="" alt="" class="profile-photo-sm" />
+      <input type="text" class="form-control" placeholder="Post a comment">
+    </div>
+  </div>-->
+</div>
+</div>
+<div class="line-divider"></div>`

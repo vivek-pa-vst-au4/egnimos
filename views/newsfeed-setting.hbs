@@ -1,0 +1,81 @@
+   <div id="page-contents">
+    	<div class="container">
+    		<div class="row">
+
+           
+ 
+
+
+
+<hr>
+
+<div class="container ">
+    
+    <div class="row">
+      <form class="form" action="/egnimos/settings" method="post" enctype="multipart/form-data" id="registrationForm">
+  		<div class="col-sm-3"><!--left col-->
+      <input type="hidden" name="_id" value="{{employee._id}}">
+     
+      <div class="text-center">
+        <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="avatar img-circle img-thumbnail" alt="avatar">
+        <h6>Upload a different photo...</h6>
+        
+        <input type="file" class="text-center center-block file-upload" name="file" >
+        
+      </div></hr><br>
+  
+        </div><!--/col-3-->
+    	<div class="col-sm-9">
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#home">SETTING</a></li>
+                <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+<span class="sr-only">Loading...</span>
+              </ul>
+
+              
+          <div class="tab-content">
+            <div class="tab-pane active" id="home">
+                <hr>
+                
+                 
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                              <label for="first_name"><h4>First name</h4></label>
+                              <input type="text" class="form-control" name="firstName" id="first_name" placeholder="first name" title="enter your first name if any.">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                            <label for="last_name"><h4>Last name</h4></label>
+                              <input type="text" class="form-control" name="lastName" id="last_name" placeholder="last name" title="enter your last name if any.">
+                          </div>
+                      </div>
+
+                     
+                      <div class="form-group">
+                           <div class="col-xs-12">
+                                <br>
+                              	<button class=" btn-success" type="submit"><i></i> Save</button>
+                               	<button class=" btn-info" type="reset"><i></i> Reset</button>
+                            </div>
+                      </div>
+              
+              
+              <hr>
+              
+             </div><!--/tab-pane-->
+             </form>
+            <!--/tab-pane-->
+          </div><!--/tab-content-->
+
+        </div><!--/col-9-->
+    </div><!--/row-->
+  
+   </div>
+   </div>
+    <!--preloader-->
+    <div id="spinner-wrapper">
+      <div class="spinner"></div>
+    </div>
